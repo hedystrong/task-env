@@ -1,0 +1,25 @@
+###
+
+POST http://localhost:8000/api/user
+Content-Type: application/json
+
+{
+  "email":"ttt13@gmail.com",
+  "password":"qweqwe"
+}
+
+###
+
+POST http://localhost:8000/api/login
+Content-Type: application/json
+
+{
+  "email":"ttt13@gmail.com",
+  "password":"qweqwe"
+}
+
+###
+GET http://localhost:8000/api/userall
+Content-type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0MWJiNDk4NGI2ZmMyZGU4YzliZDFiYSIsImVtYWlsIjoidHR0MTNAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkYXBrMEp2cWl4ZWNZSjZ2TVVOS1hGT2pFQ05tazhjSXRLRHRrWGlZRmxxTXVqWXJxSVZ2ejIiLCJfX3YiOjB9LCJpYXQiOjE2Nzk1MzczNTUsImV4cCI6MTY3OTU0NDU1NX0.mnzuGrhSs_tnrq4PSDLOJxVCjRaCRQvhH5Niz6wFFpI
+
