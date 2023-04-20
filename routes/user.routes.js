@@ -10,4 +10,4 @@ route.post("/user/:id", auth, user.getAll);
 route.post("/users", auth, user.getAll);
 route.get("/userall", auth, user.getAll);
 
-module.exports = route;
+module.exports = router;
